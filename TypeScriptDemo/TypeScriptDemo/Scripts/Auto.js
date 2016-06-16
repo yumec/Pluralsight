@@ -88,4 +88,5 @@ window.onload = function () {
     truck.addAccessories2(new Array(new Accessory(3, 'Autotech'), new Accessory(4, 'FGV')));
     $('#AccessoryList').html(truck.accessoryList);
     //This is a test.
+    //This is a test.
 };
