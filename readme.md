@@ -1,3 +1,9 @@
-Add 2
+C#:
+C# Best Practices Improving on the Basics
+CSharpBP-Collections
 
-Add readme files again.
+Git:
+GitFundamentals
+
+TypeScript:
+TypeScriptDemo
