@@ -87,5 +87,5 @@ window.onload = function () {
     truck.addAccessories(new Accessory(1, 'CQA'), new Accessory(2, 'SFC'));
     truck.addAccessories2(new Array(new Accessory(3, 'Autotech'), new Accessory(4, 'FGV')));
     $('#AccessoryList').html(truck.accessoryList);
-    //tet
+    //This is a test.
 };
