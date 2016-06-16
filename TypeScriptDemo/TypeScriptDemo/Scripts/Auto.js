@@ -1,3 +1,4 @@
+/// <reference path="typings/jquery/jquery.d.ts" />
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -84,6 +85,6 @@ window.onload = function () {
     //alert(truck.bedLength);
     //alert(truck.calcuateToTatal().toString());
     truck.addAccessories(new Accessory(1, 'CQA'), new Accessory(2, 'SFC'));
-    truck.addAccessories2(new Array(new Accessory(1, 'CQA'), new Accessory(2, 'SFC')));
-    alert(truck.accessoryList);
+    truck.addAccessories2(new Array(new Accessory(3, 'Autotech'), new Accessory(4, 'FGV')));
+    $('#AccessoryList').html(truck.accessoryList);
 };
