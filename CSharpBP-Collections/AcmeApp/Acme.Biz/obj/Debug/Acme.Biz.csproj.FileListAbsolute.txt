@@ -1,0 +1,7 @@
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp\Acme.Biz\bin\Debug\Acme.Biz.dll
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp\Acme.Biz\bin\Debug\Acme.Biz.pdb
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp\Acme.Biz\bin\Debug\Acme.Common.dll
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp\Acme.Biz\bin\Debug\Acme.Common.pdb
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp\Acme.Biz\obj\Debug\Acme.Biz.csprojResolveAssemblyReference.cache
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp\Acme.Biz\obj\Debug\Acme.Biz.dll
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp\Acme.Biz\obj\Debug\Acme.Biz.pdb

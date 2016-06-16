@@ -1,0 +1,13 @@
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\bin\Debug\Acme.Win.exe.config
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\bin\Debug\Acme.Win.exe
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\bin\Debug\Acme.Win.pdb
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\bin\Debug\Acme.Biz.dll
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\bin\Debug\Acme.Common.dll
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\bin\Debug\Acme.Biz.pdb
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\bin\Debug\Acme.Common.pdb
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\obj\Debug\Acme.Win.csprojResolveAssemblyReference.cache
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\obj\Debug\Acme.Win.Properties.Resources.resources
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\obj\Debug\Acme.Win.VendorWin.resources
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\obj\Debug\Acme.Win.csproj.GenerateResource.Cache
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\obj\Debug\Acme.Win.exe
+C:\Git\Pluralsight\CSharpBP-Collections\AcmeApp-For VS2013\Acme.Win\obj\Debug\Acme.Win.pdb
