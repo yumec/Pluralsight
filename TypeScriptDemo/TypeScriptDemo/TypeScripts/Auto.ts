@@ -1,14 +1,29 @@
-﻿/// <reference path="typings/jquery/jquery.d.ts" />
-
+﻿
 class Accessory {
     constructor(public accessoryNumber: number, public tiltle: string) { }
 }
 
-class Auto {
-    private _basePrice: number;
-    private _engine: Engine;
+interface IAutoOptions {
+    basePrice: number;
+    engine: IEngine;
+    state: string;
     make: string;
     model: string;
+    year: number;
+}
+
+interface ITruckOptions extends IAutoOptions {
+    bedLength: string;
+    fourByFour: boolean;
+}
+
+class Auto {
+    private _basePrice: number;
+    private _engine: IEngine;
+    make: string;
+    model: string;
+    status: string;
+    year: number;
     accessoryList: string;
 
     get basePrice(): number {
@@ -20,20 +35,22 @@ class Auto {
         this._basePrice = value;
     }
 
-    get engine(): Engine {
+    get engine(): IEngine {
         return this._engine;
     }
 
-    set engine(value: Engine) {
+    set engine(value: IEngine) {
         if (value == undefined) throw 'You must provide an engine.';
         this._engine = value;
     }
 
-    constructor(basePrices: number, engine: Engine, make: string, model: string) {
-        this.basePrice = basePrices;
-        this.engine = engine;
-        this.make = make;
-        this.model = model;
+    constructor(options: IAutoOptions) {
+        this.basePrice = options.basePrice;
+        this.engine = options.engine;
+        this.make = options.make;
+        this.status = options.state;
+        this.year = options.year;
+        this.model = options.model;
     }
 
     calcuateToTatal(): number {
@@ -67,15 +84,15 @@ class Truck extends Auto {
     bedLength: string;
     fourByFour: boolean;
 
-    constructor(basePrices: number, engine: Engine, make: string, model: string,
-                bedLength: string, fourByFour:boolean) {
-        super(basePrices, engine, make, model);
-        this.bedLength = bedLength;
-        this.fourByFour = fourByFour;
+    constructor(options: ITruckOptions) {
+        super(options);
+        this.bedLength = options.bedLength;
+        this.fourByFour = options.fourByFour;
     }
 }
 
 window.onload = function () {
+    /*
     var truck = new Truck(40000, new Engine(300, 'V8'), 'Cheve', 'Silverado',
         'Long Bed', true);
     //alert(truck.engine.engineType);
@@ -85,7 +102,22 @@ window.onload = function () {
     truck.addAccessories(new Accessory(1, 'CQA'), new Accessory(2, 'SFC'));
     truck.addAccessories2(new Array(new Accessory(3, 'Autotech'), new Accessory(4, 'FGV')));
     $('#AccessoryList').html(truck.accessoryList);
+    */
 
-    //This is a test.
-    //This is a test.
+    var truck = new Truck({
+        engine: new Engine(250, 'V8'),
+        basePrice: 48000,
+        state: 'Arizona',
+        model: 'F-150',
+        make: 'Ford',
+        year: 2003,
+        bedLength: 'Short bed',
+        fourByFour: true
+    });
+
+    //var myEngine = <Engine>auto.engine;
+    //alert(myEngine.hoursePower.toString());
+
+
+    alert(truck.bedLength);
 }

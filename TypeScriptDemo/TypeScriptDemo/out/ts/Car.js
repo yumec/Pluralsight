@@ -25,3 +25,4 @@ window.onload = function () {
     alert(car.engine.engineType);
     car.star();
 };
+//# sourceMappingURL=Car.js.map

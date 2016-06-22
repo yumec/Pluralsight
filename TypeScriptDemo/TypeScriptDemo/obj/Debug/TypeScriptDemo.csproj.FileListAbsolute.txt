@@ -33,8 +33,10 @@ C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\roslyn\VBCSCompiler.exe.con
 C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\TypeScriptDemo.dll.config
 C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\TypeScriptDemo.dll
 C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\TypeScriptDemo.pdb
+C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\FunScript.TypeScript.Binding.lib.dll
 C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\FSharp.Core.dll
 C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\obj\Debug\TypeScriptDemo.csprojResolveAssemblyReference.cache
+C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\bin\FSharp.Core.xml
 C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\obj\Debug\TypeScriptDemo.dll
 C:\Git\Pluralsight\TypeScriptDemo\TypeScriptDemo\obj\Debug\TypeScriptDemo.pdb

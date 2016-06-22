@@ -17,3 +17,19 @@ var Engine = (function () {
     };
     return Engine;
 }());
+var CustomeEngine = (function () {
+    function CustomeEngine() {
+    }
+    CustomeEngine.prototype.start = function (callback) {
+        window.setTimeout(function () {
+            callback(true, 'Custom Engine');
+        }, 1000);
+    };
+    CustomeEngine.prototype.stop = function (callback) {
+        window.setTimeout(function () {
+            callback(true, 'Custom Engine');
+        }, 1000);
+    };
+    return CustomeEngine;
+}());
+//# sourceMappingURL=Engine.js.map

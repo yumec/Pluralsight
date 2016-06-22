@@ -1,4 +1,3 @@
-/// <reference path="typings/jquery/jquery.d.ts" />
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -12,11 +11,13 @@ var Accessory = (function () {
     return Accessory;
 }());
 var Auto = (function () {
-    function Auto(basePrices, engine, make, model) {
-        this.basePrice = basePrices;
-        this.engine = engine;
-        this.make = make;
-        this.model = model;
+    function Auto(options) {
+        this.basePrice = options.basePrice;
+        this.engine = options.engine;
+        this.make = options.make;
+        this.status = options.state;
+        this.year = options.year;
+        this.model = options.model;
     }
     Object.defineProperty(Auto.prototype, "basePrice", {
         get: function () {
@@ -72,21 +73,37 @@ var Auto = (function () {
 }());
 var Truck = (function (_super) {
     __extends(Truck, _super);
-    function Truck(basePrices, engine, make, model, bedLength, fourByFour) {
-        _super.call(this, basePrices, engine, make, model);
-        this.bedLength = bedLength;
-        this.fourByFour = fourByFour;
+    function Truck(options) {
+        _super.call(this, options);
+        this.bedLength = options.bedLength;
+        this.fourByFour = options.fourByFour;
     }
     return Truck;
 }(Auto));
 window.onload = function () {
-    var truck = new Truck(40000, new Engine(300, 'V8'), 'Cheve', 'Silverado', 'Long Bed', true);
+    /*
+    var truck = new Truck(40000, new Engine(300, 'V8'), 'Cheve', 'Silverado',
+        'Long Bed', true);
     //alert(truck.engine.engineType);
     //alert(truck.bedLength);
     //alert(truck.calcuateToTatal().toString());
+
     truck.addAccessories(new Accessory(1, 'CQA'), new Accessory(2, 'SFC'));
     truck.addAccessories2(new Array(new Accessory(3, 'Autotech'), new Accessory(4, 'FGV')));
     $('#AccessoryList').html(truck.accessoryList);
-    //This is a test.
-    //This is a test.
+    */
+    var truck = new Truck({
+        engine: new Engine(250, 'V8'),
+        basePrice: 48000,
+        state: 'Arizona',
+        model: 'F-150',
+        make: 'Ford',
+        year: 2003,
+        bedLength: 'Short bed',
+        fourByFour: true
+    });
+    //var myEngine = <Engine>auto.engine;
+    //alert(myEngine.hoursePower.toString());
+    alert(truck.bedLength);
 };
+//# sourceMappingURL=Auto.js.map
